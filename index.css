@@ -1,0 +1,35 @@
+* {
+    font-family: "Roboto" , sans-serif;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    background-color: black;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+.Logo{
+    height: 90%;
+}
+
+.lista-navegador{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.a-navegador{
+    text-decoration: none;
+    color: black;
+}
